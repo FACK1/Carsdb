@@ -1,0 +1,25 @@
+{
+  "name": "carsdb",
+  "version": "1.0.0",
+  "description": "Find cars companies by type it's names.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACK1/Carsdb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACK1/Carsdb/issues"
+  },
+  "homepage": "https://github.com/FACK1/Carsdb#readme",
+  "dependencies": {
+    "istanbul": "^0.4.5",
+    "nodemon": "^1.18.6",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
