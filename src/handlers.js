@@ -42,3 +42,6 @@ const publicHandler = (request, response) => {
         });
     }
 };
+
+
+module.exports = {homeHandler, publicHandler}
