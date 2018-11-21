@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Cars DB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One|Courgette" rel="stylesheet">
+
 </head>
 <body>
-
+	<header>
+		<i class="fas fa-car" id="logo"></i>
+		<h1><span> CARS </span> DB </h1>
+	</header>
+	<div class="container">
+		<form action="/suggestion/" method="GET">
+			<label for="car"> Car Type : </label>
+			<input type="text" name="car" id="car" placeholder="Enter Car Type" required>
+			<button type="submit">Search</button>
+		</form>
+		
+	</div>
+	<div class="result">
+		
+	</div>
 </body>
 </html>
