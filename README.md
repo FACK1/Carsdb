@@ -1,8 +1,9 @@
 # Carsdb
-Our website allows user to search  for her favourite car through put the name of the car in input .
+Our website allowsthe  user to search  for his favourite car through putting the name of the car in place of search  .
 # User journey 
-In our app you can  search for her favourite car .
+In our app you can  search for her favourite car by putting the name of the car in the place of search,the website is characterized by autocomplete instead of the user put the full name of the car , put the first letter of the name of the car.
 # Site design 
+
 
 # Architecture 
 - Front-End :
@@ -14,15 +15,15 @@ we put the files in public folder:
   
 - Back-End
 we put the files in src folder:
-  - server.js .
-  - router.js .
-  - cars.js .
-  - searchCars.js.
+  - server.js: .
+  - router.js: .
+  - cars.js: .
+  - searchCars.js:.
   -  test.js for making some function to test the code .
 
 
 - HTML structure :
-  Have a page contain a title for our app with background , then will find a box to enter the name of car in the same line  . 
+our website is a  page contains a title for website with background , then will find a box to enter the name for the car in the same line have a button to search for the car .
 
 
 
@@ -31,3 +32,4 @@ we put the files in src folder:
 - [Abd-Alhamed ](https://github.com/abozanona)
 - [Shaimaa Azmi](https://github.com/shaima96)
 - [Sama Amro](https://github.com/samaamro20)
+
