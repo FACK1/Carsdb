@@ -17,7 +17,10 @@
 	<div class="container">
 		<form action="/suggestion/" method="GET">
 			<label for="car"> Car Type : </label>
-			<input type="text" name="car" id="car" placeholder="Enter Car Type" required>
+			<input list="browsers" type="text" name="car" id="car" placeholder="Enter Car Type" required>
+			 <datalist id="browsers">
+			 	<option value="                                                                                                ">
+			 </datalist>
 			<button type="submit">Search</button>
 		</form>
 		
