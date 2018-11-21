@@ -44,4 +44,4 @@ const publicHandler = (request, response) => {
 };
 
 
-module.exports = {homeHandler, publicHandler}
+module.exports = {homeHandler, publicHandler};

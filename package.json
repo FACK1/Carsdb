@@ -4,7 +4,7 @@
   "description": "Find cars companies by type it's names.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tape src/tests.js | tap-spec",
     "dev" : "nodemon ./src/server.js"
   },
   "repository": {
