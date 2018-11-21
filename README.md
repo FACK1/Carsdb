@@ -17,7 +17,7 @@ In our app you can  search for her favourite car by putting the name of the car 
   we put the files in src folder:
   - server.js .
   - router.js .
-  - cars.js for make  array of cars .
+  - cars.json  for make  array of cars .
   - searchCars.js for make  search funcation .
   -  test.js for making some function to test the code .
 
