@@ -1,8 +1,10 @@
 const fs = require('fs');
 const path = require('path');
+var querystring=require('querystring');
+
 
 const homeHandler = (request, response) => {
-    let htmlPath = path.join(__dirname, '..', 'public', 'index.html');
+  var htmlPath = path.join(__dirname, '..', 'public', 'index.html');
     fs.readFile(htmlPath, (error, file) => {
         if(error){
             response.writeHead(404, {'Content-Type': 'text/html'});
@@ -26,7 +28,7 @@ const publicHandler = (request, response) => {
 
     if(ContentTypeMapping[extention] === undefined){
         response.writeHead(404, {'Content-Type': 'text/html'});
-        response.end('<h1>Page Not Found</h1><p>Error Code 404</p>');
+        response.end('<h1>Page Not Found</h1><p>Error Code 404211</p>');
         return;
     }
     else {
@@ -42,6 +44,23 @@ const publicHandler = (request, response) => {
         });
     }
 };
+const suggestionHandler=(request,response)=>{
+  const value=request.url.split('/')[2];
+  if(value===undefined){
+    response.writeHead(404, {'Content-Type': 'text/plain'});
+    response.end('error');
+    return;
+  }
+  else{
+    const result= searchCars(value);
+    var convertedData = querystring.stringify(result);
+    console.log(result);
+    response.writeHead(200,{'Content-Type': 'text/plain'});
+    response.write(convertedData);
+    response.end();
+  }
 
 
-module.exports = {homeHandler, publicHandler};
+}
+
+module.exports = {homeHandler, publicHandler,suggestionHandler}
