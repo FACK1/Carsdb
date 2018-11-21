@@ -53,17 +53,14 @@ const suggestionHandler=(request,response)=>{
   }
   else{
     const result= searchCars(value);
-    //request.on('end', function () {
     var convertedData = querystring.stringify(result);
     console.log(result);
     response.writeHead(200,{'Content-Type': 'text/plain'});
     response.write(convertedData);
     response.end();
-//});
   }
 
 
 }
-
 
 module.exports = {homeHandler, publicHandler,suggestionHandler}
