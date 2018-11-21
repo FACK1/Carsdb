@@ -5,6 +5,7 @@ In our app you can  search for her favourite car by putting the name of the car 
 # Site design 
 # Architecture 
 - Front-End :
+
   we put the files in public folder:
   - index.html for HTML code for element .
   - index.css for CSS code for style element .
@@ -12,6 +13,7 @@ In our app you can  search for her favourite car by putting the name of the car 
   - index.js for function to add   " pure function ".
   
 - Back-End:
+
   we put the files in src folder:
   - server.js .
   - router.js .
