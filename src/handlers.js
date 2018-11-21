@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-var querystring=require('querystring');
-
+const querystring=require('querystring');
+const searchCars = require('./searchCars');
 
 const homeHandler = (request, response) => {
   var htmlPath = path.join(__dirname, '..', 'public', 'index.html');
@@ -53,11 +53,13 @@ const suggestionHandler=(request,response)=>{
   }
   else{
     const result= searchCars(value);
-    var convertedData = querystring.stringify(result);
-    console.log(result);
-    response.writeHead(200,{'Content-Type': 'text/plain'});
-    response.write(convertedData);
-    response.end();
+    var convertedData = JSON.stringify(result);
+    console.log({result})
+
+    console.log({convertedData});
+    response.writeHead(200,{'Content-Type': 'application/json'});
+    //response.write();
+    response.end(convertedData);
   }
 
 
