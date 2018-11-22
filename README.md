@@ -10,7 +10,7 @@ In our app you can  search for her favourite car by putting the name of the car 
   - index.html for HTML code for element .
   - index.css for CSS code for style element .
   - dom.js for conect html element with javascript .
-  - index.js for function to add   " pure function ".
+  - index.js .
   
 - Back-End:
 
