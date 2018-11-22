@@ -36,11 +36,9 @@ our website is a  page contains a title for website with background , then will 
 
 3- put in terminal : **npm install**.
 
-4- Then put in terminal : **npm init**. 
+4- Then put in terminal : **node src/server.js** to run the server. 
 
-5- Then put in terminal : **node src/server.js** to run the server. 
-
-6- Open your browser and type in: **localhost:5000**.
+5- Open your browser and put in terminal: **localhost:5000**.
 
 
 # Team Member:
