@@ -34,7 +34,7 @@ our website is a  page contains a title for website with background , then will 
 
 2- Open your command line.
 
-3- put in terminal : **npm install**.
+3- Put in terminal : **npm install**.
 
 4- Then put in terminal : **node src/server.js** to run the server. 
 
