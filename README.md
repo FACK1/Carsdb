@@ -19,7 +19,7 @@ In our app you can  search for her favourite car by putting the name of the car 
   - router.js .
   - cars.json  for make  array of cars .
   - searchCars.js for make  search funcation .
-  -  test.js for making some function to test the code .
+  - test.js for making some function to test the code .
 
 
 - HTML structure :
