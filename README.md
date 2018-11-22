@@ -1,5 +1,5 @@
 # Carsdb
-Our website allowsthe  user to search  for his favourite car through putting the name of the car in place of search  .
+Our website allows the  user to search  for his favourite car through putting the name of the car in place of search  .
 # User journey 
 In our app you can  search for her favourite car by putting the name of the car in the place of search,the website is characterized by autocomplete instead of the user put the full name of the car , put the first letter of the name of the car.
 # Site design 
