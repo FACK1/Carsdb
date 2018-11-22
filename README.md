@@ -34,11 +34,11 @@ our website is a  page contains a title for website with background , then will 
 
 2- Open your command line.
 
-3- Type in: **npm install**.
+3- put in terminal : **npm install**.
 
-4- Then: **npm init**. 
+4- Then put in terminal : **npm init**. 
 
-5- Then put: **node src/server.js** to run the server. 
+5- Then put in terminal : **node src/server.js** to run the server. 
 
 6- Open your browser and type in: **localhost:5000**.
 
