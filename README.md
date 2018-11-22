@@ -28,6 +28,19 @@ https://fack1.github.io/Carsdb/public/index.html
 - HTML structure :
 our website is a  page contains a title for website with background , then will find a box to enter the name for the car in the same line have a button to search for the car .
 
+### How to run our site on your machine?
+
+1- Clone this repo.
+
+2- Open your command line.
+
+3- Type in: **npm install**.
+
+4- Then: **npm init**. 
+
+5- Then put: **node src/server.js** to run the server. 
+
+6- Open your browser and type in: **localhost:5000**.
 
 
 # Team Member:
