@@ -1,8 +1,11 @@
 # Carsdb
 Our website allows the  user to search  for his favourite car through putting the name of the car in place of search  .
 # User journey 
-In our app you can  search for her favourite car by putting the name of the car in the place of search,the website is characterized by autocomplete instead of the user put the full name of the car , put the first letter of the name of the car.
+In our app you can  search for your favourite car by putting the name of the car in the place of search,the website is characterized by autocomplete instead of the user put the full name of the car , put the first letter of the name of the car,and our DB make an auto complete.
+# Site Link : 
+https://fack1.github.io/Carsdb/public/index.html 
 # Site design 
+
 # Architecture 
 - Front-End :
 
