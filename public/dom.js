@@ -1,20 +1,30 @@
-var carinput=document.getElementById('car');
-var cardatalist=document.getElementById('browsers');
+var carInput=document.getElementById('car');
+var carDatalist=document.getElementById('browsers');
+var buttonSearch=document.getElementById('buttonSearch');
 
-carinput.oninput= function(){
-	var value =carinput.value;
-	var mycars = [];
-	arrayres(value).then((response) =>{
-		return response.json()
-	}
-	).then((mycars) => {
+carInput.oninput= () => {
+	var value =carInput.value;
+	var myCars = [];
+	arrayResult(value).then((response) =>{
+		if(response.status == 200 ){
+		return response.json();
+		}
+		else{
+			alert('Connection Error , status Code : ' + response.status);
+		}
+	}).then((myCars) => {
         var options = '';
-        for(var i = 0; i < mycars.length; i++) {
-            options += '<option value="' + mycars[i] + '" />';
+        for(var i = 0; i < myCars.length; i++) {
+            options += '<option value="' + myCars[i] + '" />';
         }
-        cardatalist.innerHTML = options;
+        carDatalist.innerHTML = options;
 	}).catch(err => {
     		console.log({err});
     	})
 };
+
+buttonSearch.addEventListener('keypress',(e)=>{
+	e.preventDefault();
+});
+
 
