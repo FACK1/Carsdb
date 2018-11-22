@@ -3,7 +3,7 @@ const router =(request,response)=>{
 	if (request.url === '/' ) {
 		handlers.homeHandler(request,response);
 	}
-	else if (request.url.includes('/suggestion/')) {
+	else if (request.url.includes('/suggestions/')) {
 		handlers.suggestionHandler(request,response);
 	}
 	else
