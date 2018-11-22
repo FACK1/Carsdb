@@ -1,7 +1,8 @@
-const arrayres = (value) => {
+const arrayResult = (value) => {
 
     url = '/suggestions/' + value;
-    return fetch(url).then(function(response) {
+    return fetch(url).then((response)=> {
             return response
         });
+    
 };
