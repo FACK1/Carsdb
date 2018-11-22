@@ -6,9 +6,11 @@ const router =(request,response)=>{
 	else if (request.url.includes('/suggestions/')) {
 		handlers.suggestionHandler(request,response);
 	}
-	else
-	{
+	else if(request.url.split('.')[1]) {
 		handlers.publicHandler(request,response);
 	}
-}
+	else {
+		handlers.errorHandler(request, response);
+	}
+};
 module.exports=router;
