@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const querystring=require('querystring');
-const searchCars = require('..searchCars/searchCars');
+const searchCars = require('../searchCars/searchCars');
 
 const homeHandler = (request, response) => {
   var htmlPath = path.join(__dirname, '..','..', 'public', 'index.html');
