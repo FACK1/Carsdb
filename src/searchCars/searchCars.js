@@ -1,4 +1,3 @@
-//const cars = require('./cars');
 const fs = require('fs');
 const path = require('path');
 
@@ -9,7 +8,6 @@ const search = (value) => {
     value = value.toLowerCase();
     var result = parsedFile.filter(el => el.toLowerCase().includes(value));
     result = result.sort((a,b) => (a.indexOf(value) - b.indexOf(value))).slice(0, 5);
-    console.log(result);
     return result;
 };
 
